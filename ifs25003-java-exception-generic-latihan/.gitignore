@@ -1,0 +1,5 @@
+# Hasil kompilasi dan file sementara
+output/
+*.class
+*.out
+input.txt

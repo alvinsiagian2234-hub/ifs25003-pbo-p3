@@ -1,0 +1,186 @@
+ifs18005-java-oop/
+├── buku-tamu/
+│   ├── src/
+│   │   ├── adapter/
+│   │   │   ├── presenter/
+│   │   │   │   └── GuestPresenter.java
+│   │   │   └── repository/
+│   │   │       ├── GuestRepository.java
+│   │   │       └── InMemoryRepository.java
+│   │   ├── domain/
+│   │   │   ├── entity/
+│   │   │   │   └── Guest.java
+│   │   │   ├── exception/
+│   │   │   │   ├── DomainException.java
+│   │   │   │   ├── EntityNotFoundException.java
+│   │   │   │   └── ValidationException.java
+│   │   │   └── repository/
+│   │   │       ├── IGuestRepository.java
+│   │   │       └── IRepository.java
+│   │   ├── framework/
+│   │   │   ├── util/
+│   │   │   │   └── InputUtil.java
+│   │   │   └── view/
+│   │   │       └── GuestView.java
+│   │   ├── usecase/
+│   │   │   └── GuestUseCase.java
+│   │   └── App.java
+│   └── test-cases/
+│       ├── TC-01.expected
+│       ├── TC-01.tc
+│       ├── TC-02.expected
+│       ├── TC-02.tc
+│       ├── TC-03.expected
+│       ├── TC-03.tc
+│       ├── TC-04.expected
+│       └── TC-04.tc
+├── catatan-keuangan/
+│   ├── src/
+│   │   ├── adapter/
+│   │   │   ├── presenter/
+│   │   │   │   └── FinancePresenter.java
+│   │   │   └── repository/
+│   │   │       ├── InMemoryRepository.java
+│   │   │       └── TransactionRepository.java
+│   │   ├── domain/
+│   │   │   ├── entity/
+│   │   │   │   ├── SortOption.java
+│   │   │   │   ├── Transaction.java
+│   │   │   │   └── TransactionType.java
+│   │   │   ├── exception/
+│   │   │   │   ├── DomainException.java
+│   │   │   │   ├── EntityNotFoundException.java
+│   │   │   │   └── ValidationException.java
+│   │   │   └── repository/
+│   │   │       ├── IRepository.java
+│   │   │       └── ITransactionRepository.java
+│   │   ├── framework/
+│   │   │   ├── util/
+│   │   │   │   └── InputUtil.java
+│   │   │   └── view/
+│   │   │       └── FinanceView.java
+│   │   ├── usecase/
+│   │   │   └── FinanceUseCase.java
+│   │   └── App.java
+│   └── test-cases/
+│       ├── TC-01.expected
+│       ├── TC-01.tc
+│       ├── TC-02.expected
+│       ├── TC-02.tc
+│       ├── TC-03.expected
+│       ├── TC-03.tc
+│       ├── TC-04.expected
+│       └── TC-04.tc
+├── inventaris-barang/
+│   ├── src/
+│   │   ├── adapter/
+│   │   │   ├── presenter/
+│   │   │   │   └── ItemPresenter.java
+│   │   │   └── repository/
+│   │   │       ├── InMemoryRepository.java
+│   │   │       └── ItemRepository.java
+│   │   ├── domain/
+│   │   │   ├── entity/
+│   │   │   │   ├── Item.java
+│   │   │   │   └── SortOption.java
+│   │   │   ├── exception/
+│   │   │   │   ├── DomainException.java
+│   │   │   │   ├── EntityNotFoundException.java
+│   │   │   │   └── ValidationException.java
+│   │   │   └── repository/
+│   │   │       ├── IItemRepository.java
+│   │   │       └── IRepository.java
+│   │   ├── framework/
+│   │   │   ├── util/
+│   │   │   │   └── InputUtil.java
+│   │   │   └── view/
+│   │   │       └── ItemView.java
+│   │   ├── usecase/
+│   │   │   └── ItemUseCase.java
+│   │   └── App.java
+│   └── test-cases/
+│       ├── TC-01.expected
+│       ├── TC-01.tc
+│       ├── TC-02.expected
+│       ├── TC-02.tc
+│       ├── TC-03.expected
+│       ├── TC-03.tc
+│       ├── TC-04.expected
+│       └── TC-04.tc
+├── jadwal-kegiatan/
+│   ├── src/
+│   │   ├── adapter/
+│   │   │   ├── presenter/
+│   │   │   │   └── ActivityPresenter.java
+│   │   │   └── repository/
+│   │   │       ├── ActivityRepository.java
+│   │   │       └── InMemoryRepository.java
+│   │   ├── domain/
+│   │   │   ├── entity/
+│   │   │   │   ├── Activity.java
+│   │   │   │   ├── Day.java
+│   │   │   │   └── SortOption.java
+│   │   │   ├── exception/
+│   │   │   │   ├── DomainException.java
+│   │   │   │   ├── EntityNotFoundException.java
+│   │   │   │   └── ValidationException.java
+│   │   │   └── repository/
+│   │   │       ├── IActivityRepository.java
+│   │   │       └── IRepository.java
+│   │   ├── framework/
+│   │   │   ├── util/
+│   │   │   │   └── InputUtil.java
+│   │   │   └── view/
+│   │   │       └── ActivityView.java
+│   │   ├── usecase/
+│   │   │   └── ActivityUseCase.java
+│   │   └── App.java
+│   └── test-cases/
+│       ├── TC-01.expected
+│       ├── TC-01.tc
+│       ├── TC-02.expected
+│       ├── TC-02.tc
+│       ├── TC-03.expected
+│       ├── TC-03.tc
+│       ├── TC-04.expected
+│       └── TC-04.tc
+├── kontak-teman/
+│   ├── src/
+│   │   ├── adapter/
+│   │   │   ├── presenter/
+│   │   │   │   └── ContactPresenter.java
+│   │   │   └── repository/
+│   │   │       ├── ContactRepository.java
+│   │   │       └── InMemoryRepository.java
+│   │   ├── domain/
+│   │   │   ├── entity/
+│   │   │   │   ├── Contact.java
+│   │   │   │   └── SortOption.java
+│   │   │   ├── exception/
+│   │   │   │   ├── DomainException.java
+│   │   │   │   ├── EntityNotFoundException.java
+│   │   │   │   └── ValidationException.java
+│   │   │   └── repository/
+│   │   │       ├── IContactRepository.java
+│   │   │       └── IRepository.java
+│   │   ├── framework/
+│   │   │   ├── util/
+│   │   │   │   └── InputUtil.java
+│   │   │   └── view/
+│   │   │       └── ContactView.java
+│   │   ├── usecase/
+│   │   │   └── ContactUseCase.java
+│   │   └── App.java
+│   └── test-cases/
+│       ├── TC-01.expected
+│       ├── TC-01.tc
+│       ├── TC-02.expected
+│       ├── TC-02.tc
+│       ├── TC-03.expected
+│       ├── TC-03.tc
+│       ├── TC-04.expected
+│       └── TC-04.tc
+├── .gitignore
+├── README.md
+├── run-tests.sh
+└── structure.txt

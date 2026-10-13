@@ -1,0 +1,29 @@
+ifs18005-java-exception-generic-latihan/
+├── src/
+│   ├── adapter/
+│   │   ├── presenter/
+│   │   │   └── TodoPresenter.java
+│   │   └── repository/
+│   │       ├── InMemoryRepository.java
+│   │       └── TodoRepository.java
+│   ├── domain/
+│   │   ├── entity/
+│   │   │   ├── SortOption.java
+│   │   │   └── Todo.java
+│   │   ├── exception/
+│   │   │   ├── DomainException.java
+│   │   │   ├── EntityNotFoundException.java
+│   │   │   └── ValidationException.java
+│   │   └── repository/
+│   │       ├── IRepository.java
+│   │       └── ITodoRepository.java
+│   ├── framework/
+│   │   ├── util/
+│   │   │   └── InputUtil.java
+│   │   └── view/
+│   │       └── TodoView.java
+│   ├── usecase/
+│   │   └── TodoUseCase.java
+│   └── App.java
+├── .gitignore
+└── structure.txt
